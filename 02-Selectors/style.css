@@ -1,0 +1,9 @@
+article p:first-of-type {
+    color: red;
+    font-size: 1.5em;
+}
+
+article p:nth-last-child(1) {
+    color: pink;
+    font-size: 0.65em;
+}
