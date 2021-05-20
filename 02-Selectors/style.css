@@ -1,13 +1,18 @@
+article p::before {
+  font-weight: bolder;
+  content: "Desire: ";
+}
+
 article p:first-of-type {
-    color: red;
-    font-size: 1.5em;
+  color: red;
+  font-size: 1.5em;
 }
 
 article p:last-child {
-    color: pink;
-    font-size: 0.65em;
+  color: pink;
+  font-size: 0.65em;
 }
 
 article p:nth-last-child(2) {
-    display: none;
+  display: none;
 }
