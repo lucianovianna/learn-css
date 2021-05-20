@@ -3,7 +3,11 @@ article p:first-of-type {
     font-size: 1.5em;
 }
 
-article p:nth-last-child(1) {
+article p:last-child {
     color: pink;
     font-size: 0.65em;
+}
+
+article p:nth-last-child(2) {
+    display: none;
 }
